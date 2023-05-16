@@ -12,7 +12,7 @@ class signUp {
     }
     
     emailInput() {
-        cy.get(elSignUp.emailType).type("3@teste.com.br")
+        cy.get(elSignUp.emailType).type("4@teste.com.br")
     }
     
     nameInput() {
