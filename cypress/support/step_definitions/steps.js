@@ -36,11 +36,11 @@ function passinput() {
 
 
 Given("Eu acesso a home page", () => {
-    signUp.webaccess()
+    signUp.webAccess()
 })
 
 When("Acesso a página de login", () => {
-    signUp.dataaccess()
+    signUp.dataAccess()
 })
 
 And("Digito dados inválidos", () => {
@@ -54,26 +54,26 @@ Then("Deve aparecer mensagem de erro", () => {
 })
 
 And("Insiro meu nome e e-mail", () => {
-	signUp.nameinput()
-    signUp.emailinput()
-    signUp.formaccess()
+	signUp.nameInput()
+    signUp.emailInput()
+    signUp.formAccess()
 })
 
 Then("Devo digitar meus dados", () => {
-    signUp.genderinput()
-    signUp.passwordinput()
-    signUp.bdayinput()
-    signUp.bmonthinput()
-    signUp.byearinput()
-    signUp.firstnameinput()
-    signUp.lastnameinput()
-    signUp.companyinput()
-    signUp.addressinput()
-    signUp.complementinput()
-    signUp.countryinput()
-    signUp.stateinput()
-    signUp.cityinput()
-    signUp.zipcodeinput()
-    signUp.celphoneinput()
-    signUp.sendform()
+    signUp.genderInput()
+    signUp.passwordInput()
+    signUp.bDayInput()
+    signUp.bMonthInput()
+    signUp.bYearInput()
+    signUp.firstNameInput()
+    signUp.lastNameInput()
+    signUp.companyInput()
+    signUp.addressInput()
+    signUp.complementInput()
+    signUp.countryInput()
+    signUp.stateInput()
+    signUp.cityInput()
+    signUp.zipCodeInput()
+    signUp.cellPhoneInput()
+    signUp.sendForm()
 })

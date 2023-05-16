@@ -3,88 +3,88 @@
 const elSignUp = require('./elements').ELEMENTS
 
 class signUp {
-    webaccess() {
-        cy.visit(elSignUp.pageaccess)
+    webAccess() {
+        cy.visit(elSignUp.pageAccess)
     }
     
-    dataaccess() {
-        cy.get(elSignUp.loginaccess).click()
+    dataAccess() {
+        cy.get(elSignUp.loginAccess).click()
     }
     
-    emailinput() {
-        cy.get(elSignUp.emailtype).type("1@teste.com.br")
+    emailInput() {
+        cy.get(elSignUp.emailType).type("3@teste.com.br")
     }
     
-    nameinput() {
-        cy.get(elSignUp.nametype).type("Hugão")
+    nameInput() {
+        cy.get(elSignUp.nameType).type("Hugão")
     }
 
-    formaccess() {
-        cy.get(elSignUp.formaccess).click()
+    formAccess() {
+        cy.get(elSignUp.formAccess).click()
     }
 
-    genderinput() {
-        cy.get(elSignUp.genderinput).click()
+    genderInput() {
+        cy.get(elSignUp.genderInput).click()
     }
 
-    passwordinput() {
-        cy.get(elSignUp.passwordinput).type("123456")
+    passwordInput() {
+        cy.get(elSignUp.passwordInput).type("123456")
     }
 
-    bdayinput() {
-        cy.get(elSignUp.bdayinput).select("11")
+    bDayInput() {
+        cy.get(elSignUp.bDayInput).select("11")
     }
 
-    bmonthinput() {
-        cy.get(elSignUp.bmonthinput).select("11")
+    bMonthInput() {
+        cy.get(elSignUp.bMonthInput).select("11")
     }
 
-    byearinput() {
-        cy.get(elSignUp.byearinput).select("1992")
+    bYearInput() {
+        cy.get(elSignUp.bYearInput).select("1992")
     }
 
-    firstnameinput() {
-        cy.get(elSignUp.firstnameinput).type("Hugão")
+    firstNameInput() {
+        cy.get(elSignUp.firstNameInput).type("Hugão")
     }
 
-    lastnameinput() {
-        cy.get(elSignUp.lastnameinput).type("Teixeira")
+    lastNameInput() {
+        cy.get(elSignUp.lastNameInput).type("Teixeira")
     }
 
-    companyinput() {
-        cy.get(elSignUp.companyinput).type("Quality Digital")
+    companyInput() {
+        cy.get(elSignUp.companyInput).type("Quality Digital")
     }
 
-    addressinput() {
-        cy.get(elSignUp.addressinput).type("Rua Tenente-Coronel Teste")
+    addressInput() {
+        cy.get(elSignUp.addressInput).type("Rua Tenente-Coronel Teste")
     }
 
-    complementinput() {
-        cy.get(elSignUp.complementinput).type("Número 41 - Teste")
+    complementInput() {
+        cy.get(elSignUp.complementInput).type("Número 41 - Teste")
     }
 
-    countryinput() {
-        cy.get(elSignUp.countryinput).select("United States")
+    countryInput() {
+        cy.get(elSignUp.countryInput).select("United States")
     }
 
-    stateinput() {
-        cy.get(elSignUp.stateinput).type("Michigan")
+    stateInput() {
+        cy.get(elSignUp.stateInput).type("Michigan")
     }
 
-    cityinput() {
-        cy.get(elSignUp.cityinput).type("Detroit")
+    cityInput() {
+        cy.get(elSignUp.cityInput).type("Detroit")
     }
 
-    zipcodeinput() {
-        cy.get(elSignUp.zipcodeinput).type("48127")
+    zipCodeInput() {
+        cy.get(elSignUp.zipCodeInput).type("48127")
     }
 
-    celphoneinput() {
-        cy.get(elSignUp.celphoneinput).type("+57995182122")
+    cellPhoneInput() {
+        cy.get(elSignUp.cellPhoneInput).type("+57995182122")
     }
 
-    sendform() {
-        cy.get(elSignUp.sendform).click()
+    sendForm() {
+        cy.get(elSignUp.sendForm).click()
     }
 }
 
